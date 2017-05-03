@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/vue.js" ></script>
+       <script src="js/jquery-3.1.1.js" ></script>
+
+</head>
+<body>
+<button onclick="ff()">
+ <div id="app">
+    
+ </div>
+  <script>
+  var data1 =[{"keyId":null,"itemId":null,"propItemId":null,"mainItemId":null,"policyId":null,"productId":10048,"insurantId":"646360","organId":null,"sumAssured":443610,"units":null,"applicationDate":null,"effectiveDate":null,"issueDate":null,"expiryDate":null,"payMode":null,"payModeRenew":null,"payDueDate":null,"policyYear":null,"liabilityState":"01","liabilityDate":null,"statusChangeReason":null,"payStatus":null,"payPeriod":null,"payFreq":null,"payYear":null,"payUpDate":null,"coverPeriodType":null,"coveragePeriod":null,"premCalcWay":null,"stdPremBf":null,"discntedStdPremBf":null,"extraStdPremBf":null,"stdPremAf":null,"discntedStdPremAf":null,"extraPremAf":null,"totalPremAf":310000,"stdPremAn":null,"discntedStdPremAn":null,"discntedRate":null,"extraStdPremAn":null,"nextStdPremBf":null,"nextDiscntedStdPremBf":null,"nextExtraStdPremBf":null,"nextStdPremAf":null,"nextDiscntedStdPremAf":null,"nextExtraPremAf":null,"nextTotalPremAf":null,"nextStdPremAn":null,"nextDiscntedStdPremAn":null,"nextDiscntedRate":null,"nextExtraStdPremAn":null,"derivationType":null,"uwDecision":null,"csDecision":null,"policyAssumpsit":null,"jointLifeYn":null,"waiverId":null,"waiverStart":null,"waiverEnd":null,"partitionIndi":null,"recordTime":null,"insertTime":null,"updateTime":null,"insertedBy":null,"updatedBy":null,"benefitLevel":null,"renew":null,"renewDecision":null,"policyNo":"8088484743321868","productCode":"3239","productName":"君康瑞赢5号年金保险A款","holderCustId":646360,"proposalNo":"0029922877908846"},{"keyId":null,"itemId":null,"propItemId":null,"mainItemId":null,"policyId":null,"productId":10048,"insurantId":"646360","organId":null,"sumAssured":443610,"units":null,"applicationDate":null,"effectiveDate":null,"issueDate":null,"expiryDate":null,"payMode":null,"payModeRenew":null,"payDueDate":null,"policyYear":null,"liabilityState":"01","liabilityDate":null,"statusChangeReason":null,"payStatus":null,"payPeriod":null,"payFreq":null,"payYear":null,"payUpDate":null,"coverPeriodType":null,"coveragePeriod":null,"premCalcWay":null,"stdPremBf":null,"discntedStdPremBf":null,"extraStdPremBf":null,"stdPremAf":null,"discntedStdPremAf":null,"extraPremAf":null,"totalPremAf":310000,"stdPremAn":null,"discntedStdPremAn":null,"discntedRate":null,"extraStdPremAn":null,"nextStdPremBf":null,"nextDiscntedStdPremBf":null,"nextExtraStdPremBf":null,"nextStdPremAf":null,"nextDiscntedStdPremAf":null,"nextExtraPremAf":null,"nextTotalPremAf":null,"nextStdPremAn":null,"nextDiscntedStdPremAn":null,"nextDiscntedRate":null,"nextExtraStdPremAn":null,"derivationType":null,"uwDecision":null,"csDecision":null,"policyAssumpsit":null,"jointLifeYn":null,"waiverId":null,"waiverStart":null,"waiverEnd":null,"partitionIndi":null,"recordTime":null,"insertTime":null,"updateTime":null,"insertedBy":null,"updatedBy":null,"benefitLevel":null,"renew":null,"renewDecision":null,"policyNo":"8088484743321768","productCode":"3239","productName":"君康瑞赢5号年金保险A款","holderCustId":646360,"proposalNo":"0029993877908846"},{"keyId":null,"itemId":null,"propItemId":null,"mainItemId":null,"policyId":null,"productId":10048,"insurantId":"646360","organId":null,"sumAssured":443610,"units":null,"applicationDate":null,"effectiveDate":null,"issueDate":null,"expiryDate":null,"payMode":null,"payModeRenew":null,"payDueDate":null,"policyYear":null,"liabilityState":"01","liabilityDate":null,"statusChangeReason":null,"payStatus":null,"payPeriod":null,"payFreq":null,"payYear":null,"payUpDate":null,"coverPeriodType":null,"coveragePeriod":null,"premCalcWay":null,"stdPremBf":null,"discntedStdPremBf":null,"extraStdPremBf":null,"stdPremAf":null,"discntedStdPremAf":null,"extraPremAf":null,"totalPremAf":310000,"stdPremAn":null,"discntedStdPremAn":null,"discntedRate":null,"extraStdPremAn":null,"nextStdPremBf":null,"nextDiscntedStdPremBf":null,"nextExtraStdPremBf":null,"nextStdPremAf":null,"nextDiscntedStdPremAf":null,"nextExtraPremAf":null,"nextTotalPremAf":null,"nextStdPremAn":null,"nextDiscntedStdPremAn":null,"nextDiscntedRate":null,"nextExtraStdPremAn":null,"derivationType":null,"uwDecision":null,"csDecision":null,"policyAssumpsit":null,"jointLifeYn":null,"waiverId":null,"waiverStart":null,"waiverEnd":null,"partitionIndi":null,"recordTime":null,"insertTime":null,"updateTime":null,"insertedBy":null,"updatedBy":null,"benefitLevel":null,"renew":null,"renewDecision":null,"policyNo":"8088484743321668","productCode":"3239","productName":"君康瑞赢5号年金保险A款","holderCustId":646360,"proposalNo":"0029993851908846"}];
+        function ff(){
+			$("#app").load('haha.html',null,function(){
+					var vm=new Vue({
+						el:"#app",
+						data:{
+							todos:data1
+						}
+						});		
+			})
+		}
+			
+    </script>
+</body>
+</html>
